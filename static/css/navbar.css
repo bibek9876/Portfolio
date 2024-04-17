@@ -1,0 +1,25 @@
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #df7b7b;
+    font-size: 1rem;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+}
+
+.navbar .links{
+    display: flex;
+    gap: 2rem;
+}
